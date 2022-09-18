@@ -110,7 +110,7 @@ while True: #outer while loop to run the program again when it ended
         con.select('Inbox')
             
         # fetching emails from this user "tu**h*****1@gmail.com"
-        msgs = get_emails(search('FROM', 'yu1820930063@gmail.com', con))#change to user address
+        msgs = get_emails(search('FROM', 'some@gmail.com', con))#change to user address
             
         # Uncomment this to see what actually comes as data
         # print(msgs)  
