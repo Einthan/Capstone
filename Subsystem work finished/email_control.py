@@ -22,8 +22,8 @@ cina260 = adafruit_ina260.INA260(i2c,0x41)#hook car data input to this variable
 #Email Variables
 SMTP_SERVER = 'smtp.gmail.com' #Email Server (don't change!)
 SMTP_PORT = 587 #Server Port (don't change!)
-GMAIL_USERNAME = 'wura123d@gmail.com' #change this to match your gmail account
-GMAIL_PASSWORD = 'miqysmuvuzacraik'  #change this to match your gmail app-password
+GMAIL_USERNAME = 'my@gmail.com' #change this to match your gmail account
+GMAIL_PASSWORD = 'aagk'  #change this to match your gmail app-password
 class Emailer:
     def sendmail(self, recipient, subject, content):
 
@@ -44,7 +44,7 @@ class Emailer:
         #Send Email & Exit
         session.sendmail(GMAIL_USERNAME, recipient, headers + "\r\n\r\n" + content)
         session.quit
-sendTo = 'emailfor404data@gmail.com'
+sendTo = 'your@gmail.com'
 
 while True: #outer while loop to run the program again when it ended 
     consume = float(0)  #define discharge total watt
