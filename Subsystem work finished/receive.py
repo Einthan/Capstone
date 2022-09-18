@@ -46,7 +46,7 @@ while True:#infinity read latest email code
         con.select('Inbox')
             
         # fetching emails from this user "tu**h*****1@gmail.com"
-        msgs = get_emails(search('FROM', 'yu1820930063@gmail.com', con))
+        msgs = get_emails(search('FROM', 'some@gmail.com', con))
             
         # Uncomment this to see what actually comes as data
         # print(msgs)
