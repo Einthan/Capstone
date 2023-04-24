@@ -24,8 +24,8 @@ cina260 = adafruit_ina260.INA260(i2c,0x41)#hook car data input to this variable
 #Email Variables
 SMTP_SERVER = 'smtp.gmail.com' #Email Server (don't change!)
 SMTP_PORT = 587 #Server Port (don't change!)
-GMAIL_USERNAME = 'monitor4404@gmail.com' #change this to match your gmail account
-GMAIL_PASSWORD = 'sexrcyyrgyswszsa'  #change this to match your gmail app-password
+GMAIL_USERNAME = '???@gmail.com' #change this to match your gmail account
+GMAIL_PASSWORD = '???'  #change this to match your gmail app-password
 class Emailer:
     def sendmail(self, recipient, subject, content):
 
@@ -46,8 +46,8 @@ class Emailer:
         #Send Email & Exit
         session.sendmail(GMAIL_USERNAME, recipient, headers + "\r\n\r\n" + content)
         session.quit
-sendTo = 'emailfor404data@gmail.com'
-sendTo1= 'emailfor404data2@gmail.com'
+sendTo = '???@gmail.com'
+sendTo1= 'control@gmail.com'
 
 # Function to get email content part i.e its body part
 def get_body(msg):
@@ -106,8 +106,8 @@ while True: #outer while loop to run the program again when it ended
     prevData = t
     while (prevData==t):
         
-        user = 'monitor4404@gmail.com'
-        password = 'sexrcyyrgyswszsa'
+        user = '???@gmail.com'
+        password = '???'
         imap_url = 'imap.gmail.com'
             
         
@@ -121,8 +121,8 @@ while True: #outer while loop to run the program again when it ended
         # calling function to check for email under this label
         con.select('Inbox')
             
-        # fetching emails from this user "tu**h*****1@gmail.com"
-        msgs = get_emails(search('FROM', 'emailfor404data2@gmail.com', con))#change to user address
+        # fetching emails from this user "
+        msgs = get_emails(search('FROM', 'control@gmail.com', con))#change to user address
             
         # Uncomment this to see what actually comes as data
         # print(msgs)  
