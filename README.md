@@ -2,7 +2,8 @@
 Senior design project at Texas A&amp;M University
 <br/>The project is Power Management of Solar Home with Electric Vehical as Load
 <br/> Contains code for Battery monitoring Subsystem, to process the code a Raspberry Pi with Adafruit INA260 sensor attachment is required
-<br/>Demo video can be find on : https://drive.google.com/file/d/1ktlEj10O0bpEsE8jHyFuzHTWWoj_YjtA/view?usp=sharing
+<br/>Demo video is on : https://drive.google.com/file/d/1ktlEj10O0bpEsE8jHyFuzHTWWoj_YjtA/view?usp=sharing
+
 ![Algorithm flowchart](https://user-images.githubusercontent.com/98476895/188728023-193f8e73-f535-4c23-8602-f33c042d1e49.png)
 Code logic diagram
 
