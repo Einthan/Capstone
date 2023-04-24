@@ -6,7 +6,7 @@ Senior design project at Texas A&amp;M University
 Code logic diagram
 <br/>![overall block](https://user-images.githubusercontent.com/98476895/234091245-fde110b5-4fe7-40c6-9d6b-83f0a35b87d2.JPG)
 <br/>Overall system block diagram
-![all system](https://user-images.githubusercontent.com/98476895/234091372-26ddcf9c-8420-4a3c-806e-11fbc8235588.JPG)
-<br/>Integrated system diagram
-![monitoring](https://user-images.githubusercontent.com/98476895/234091572-21bd89fa-5bd7-4123-82c6-6869c3a46558.JPG)
+<br/>![all system](https://user-images.githubusercontent.com/98476895/234091372-26ddcf9c-8420-4a3c-806e-11fbc8235588.JPG)
+<br/>Integrated hardware system 
+<br/>![monitoring](https://user-images.githubusercontent.com/98476895/234091572-21bd89fa-5bd7-4123-82c6-6869c3a46558.JPG)
 <br/>Monitoring system hardware
